@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* THE OVER-ALL DIV THAT COVERS ALL THE CONTENTS */
+.overall-work{
+    /* width: 100%; */
+    height: 100%; 
+    display: flex;
+    gap: 3rem;
+}
+/* SIDEBARS */
+.sidebar{
+    top: 0;
+    left: 0;
+    display: list-item;
+    position: fixed;  
+    width: 15%;
+     height: 120vh; 
+    background-color: rgba(220, 220, 220, 0.517);
+    padding: 20px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: list-item;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.body{
+    margin-left: 25rem;
+}
+ .sidebar a:hover{
+    background-color: rgba(220, 220, 220, 0.517);
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}  
+/* THE CONTAINER THAT CARRIES THE GMAIL LOGO */
+.bars{
+    display: flex;
+    align-items: center;
+}
+#inbox{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    border: 1px solid lightblue;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(193, 227, 238);
+    border: none;
+}
+.inner1{
+    margin-bottom: 2rem;
+    border: 1px solid rgb(140, 204, 226);
+    height: 70px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: rgb(193, 227, 238);
+    /* border: none; */
+}
+.inner{
+    display: flex;
+    gap: 3rem;
+}
+#inner{
+    gap: 6rem;
+}
+.innerr{
+    display: flex;
+}
+li{
+    word-spacing: 10px;
+}
+summary{
+    word-spacing: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+   margin-top: 15px;
+}
+/* BODY CONTENTS */
+/* THE HEADING */
+/* .body2{
+    display: flex;
+} */
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.searchh{
+    word-spacing: 20px;
+    margin-top: -1rem;
+} 
+.search2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    /* gap: 28rem; */
+    word-spacing: 20px;
+    /* border: 1px solid yellow; */
+    width: 850px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(229, 242, 246);
+    border-radius: 8px;
+
+}
+.end-sidebars{
+    display: grid;
+    gap: 3rem;
+    margin-top: -1.6rem;
+    margin-right: -5rem;
+    cursor: pointer;
+}
+/* second section of the header */
+.section2{
+    display: flex;
+    margin-right: 5rem;
+    margin-top: -18rem;
+    gap: 60rem; 
+    margin-bottom: 1rem;
+}
+.section2-one-slide{
+    display: flex;
+    gap: 2rem;
+    /* word-spacing: 20px; */
+    font-size: 20px;
+}
+.redo{
+    word-spacing: 20px;
+}
+.numbers-angles-caret{
+    display: flex;
+    gap: 3rem;
+    font-size: 20px;
+}
+#angles{
+    word-spacing: 30px;
+}
+.caret{
+    word-spacing: 20px;
+
+}
+/* third section of the heading */
+.content{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /* justify-content: space-between; */
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    line-height: 40px;
+}
+.span1{
+    background: rgb(33, 98, 33);
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+}
+.span{
+    background: blue;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+/* the contents */
+.email-content{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.headin{
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+    gap: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.email-content:hover{
+    background-color: rgba(220, 220, 220, 0.517);
+    cursor: pointer;
+    
+}
+.paragraph{
+    display: flex;
+    gap: 4rem;
+}
+#para{
+    margin-left: 70px;
+}
+.footer{
+    margin-top: 3rem;
+    display: flex;
+    gap: 40rem;
+}
+.input2{
+    display: grid;
+}
+.input3{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-li{
+    display: flex;
+    gap: 1rem;
+}
+.footer-li a{
+    text-decoration: none;
+    color: black;
+  cursor: pointer;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;  
+    
+}
